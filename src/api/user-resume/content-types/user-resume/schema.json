@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_resumes",
+  "info": {
+    "singularName": "user-resume",
+    "pluralName": "user-resumes",
+    "displayName": "User Resume",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "resumeid": {
+      "type": "string"
+    },
+    "userEmail": {
+      "type": "string"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "summery": {
+      "type": "text"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "education.education"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "experiene.experience"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": false,
+      "component": "skills-group.skills-group"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.projects"
+    }
+  }
+}

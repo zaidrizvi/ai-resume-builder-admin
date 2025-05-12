@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_projects_projects",
+  "info": {
+    "displayName": "Projects",
+    "icon": "chartCircle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "technologies": {
+      "type": "text"
+    }
+  }
+}

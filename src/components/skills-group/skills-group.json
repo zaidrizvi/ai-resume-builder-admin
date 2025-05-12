@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_skills_group_skills_groups",
+  "info": {
+    "displayName": "SkillsGroup",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "languages": {
+      "type": "text"
+    },
+    "databases": {
+      "type": "text"
+    },
+    "tools": {
+      "type": "text"
+    },
+    "softSkills": {
+      "type": "text"
+    }
+  }
+}
